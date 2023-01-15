@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vue-tsc && vite build && echo 'rbi.lemonneko.moe' > ./dist/CNAME",
     "preview": "vite preview"
   },
   "dependencies": {
